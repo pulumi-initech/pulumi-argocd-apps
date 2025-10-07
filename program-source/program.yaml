@@ -2,6 +2,7 @@ apiVersion: pulumi.com/v1
 kind: Program
 metadata:
   name: random-yaml
+  namespace: default
 program:
   resources:
     randomPassword:
