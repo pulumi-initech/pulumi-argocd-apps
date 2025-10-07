@@ -22,6 +22,8 @@ kind: Stack
 metadata:
   name: random-yaml-program
   namespace: default
+  annotations:
+    link.argocd.argoproj.io/external-link: "https://app.pulumi.com/initech/random-yaml/random-yaml-program"
 spec:
   serviceAccountName: random-yaml-program
   programRef:

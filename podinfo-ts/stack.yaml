@@ -22,6 +22,8 @@ kind: Stack
 metadata:
   name: podinfo-ts
   namespace: default
+  annotations:
+    link.argocd.argoproj.io/external-link: "https://app.pulumi.com/initech/podinfo-ts/dev"
 spec:
   serviceAccountName: podinfo-ts
   projectRepo: https://github.com/pulumi-initech/podinfo-ts
