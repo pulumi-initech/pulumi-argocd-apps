@@ -68,6 +68,8 @@ kind: Stack
 metadata:
   name: nginx-current
   namespace: default
+  annotations:
+    link.argocd.argoproj.io/external-link: "https://app.pulumi.com/initech/nginx-current/nginx-preview-demo"
 spec:
   serviceAccountName: nginx-preview-demo
   programRef:
