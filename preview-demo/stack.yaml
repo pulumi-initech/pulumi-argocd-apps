@@ -111,8 +111,8 @@ spec:
     PULUMI_ACCESS_TOKEN:
       type: Secret
       secret:
-        name: pulumi-api-secret
-        key: accessToken
+        name: pulumi-access-token
+        key: PULUMI_ACCESS_TOKEN
   workspaceTemplate:
     spec:
       image: pulumi/pulumi:3.198.0-nonroot
