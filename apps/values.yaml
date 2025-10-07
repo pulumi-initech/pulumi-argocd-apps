@@ -8,3 +8,4 @@ config:
 
 applications:
   - name: program-source
+  - name: podinfo-ts
