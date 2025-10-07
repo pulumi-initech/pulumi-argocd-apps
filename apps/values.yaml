@@ -10,3 +10,4 @@ applications:
   - name: program-source
   - name: podinfo-ts
   - name: preview-demo
+  - name: simple-kubernetes
