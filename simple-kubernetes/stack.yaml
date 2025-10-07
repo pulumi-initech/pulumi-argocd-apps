@@ -31,6 +31,8 @@ spec:
   stack: dev
   refresh: true
   destroyOnFinalize: true
+  config:
+    hostname: "pulumi-initech.com"
   envRefs:
     PULUMI_ACCESS_TOKEN:
       type: Secret
